@@ -1,0 +1,35 @@
+@font-face {
+   font-family: 'fontForTitle';
+   src: url('../fonts/KyivTypeSans-Medium3.otf');
+}
+
+@font-face {
+   font-family: 'fontForMainText';
+   src: url('../fonts/Inter-Regular.ttf');
+}
+
+h2{
+   font-family: 'fontForTitle';
+   color: #F5F5F5;
+}
+
+p{
+   font-family: 'fontForMainText';
+}
+
+.nav-header{
+   font-family: 'fontForMainText';
+   font-weight: 700;
+}
+
+.main-info p {
+   color: rgba(255, 219, 187, 1);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 39px;
+}
+
+.main-info span{
+   font-weight: 600;
+}
