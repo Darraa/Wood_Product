@@ -10,11 +10,17 @@
 
 h2{
    font-family: 'fontForTitle';
+   font-weight: 500;
+   font-size: 90px;
+   text-transform: uppercase;
    color: #F5F5F5;
 }
 
 p{
    font-family: 'fontForMainText';
+   font-weight: 500;
+   font-size: 30px;
+   color: #F5F5F5;
 }
 
 .nav-header{

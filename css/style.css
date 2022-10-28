@@ -1,7 +1,10 @@
 body{
    margin: 0px;
    padding: 0px;
+   background: url('../img/Group.png') no-repeat;
+   background-size: cover;
    background-color: rgba(34, 32, 33, 1);
+   
 }
 
 ul{
@@ -60,7 +63,7 @@ header{
    border-radius: 43px 0px 0px 43px;
    filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
    display: flex;
-   width: fit-content;
+   width: 70%;
    height: fit-content;
 }
 
@@ -101,10 +104,156 @@ header{
 .main-image{
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   flex-basis: 50%;
+   justify-content: space-evenly;
+   padding-left: 30px;
+   padding-right: 30px;
 }
 
-.top{
+.image {
    display: flex;
    align-self: flex-end;
 }
+
+/* work-with-wood */
+.work-with-wood {
+   margin: 0px;
+}
+
+.work-with-wood h2{
+   display: flex;
+   flex-wrap: wrap;
+   width: 740px;
+   font-weight: 500;
+   font-size: 90px;
+   text-transform: uppercase;
+   margin: 0px;
+   margin-left: 240px;
+   margin-bottom: 100px;
+}
+
+.list-wood {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 160px;
+}
+
+.list-wood-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.list-wood-item p{
+   font-weight: 700;
+   font-size: 30px;
+   color: #F5F5F5;
+   padding-top: 40px;
+}
+
+.list-wood-item li{
+   font-family: 'fontForMainText';
+   font-weight: 500;
+   font-size: 30px;
+   color: #F5F5F5;
+   padding-bottom: 30px;
+   list-style: url('../img/twemoji_check-mark.png');
+}
+
+.list-wood-item li:last-child{
+   list-style: url('../img/maki_cross.png');
+}
+
+
+/* our-work */
+
+.our-work img{
+   width: 1130px;
+   height: 754px;
+}
+
+.our-work{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.advantages-working-with-us{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 270px;
+   margin-bottom: 300px;
+}
+
+.advantages-working-with-us div{
+   display: flex;
+   gap: 120px;
+   margin-bottom: 120px;
+} 
+
+.advantages-working-with-us h2{
+   width: 50%;
+}
+
+.working-description{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.advantages-working-with-us button{
+   background: #728BAD;
+   border-radius: 42px;
+   border: none;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 36px;
+   color: #F5F5F5;
+   padding: 11px 70px;
+}
+
+.about-us{
+   background-color: #1E0C06;
+   border-radius: 0px  43px 43px 0px ;
+   filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
+   display: flex;
+   width: 70%;
+   height: fit-content;
+}
+
+.about-us-item{
+   display: flex;
+   gap: 60px;
+}
+
+.about-us-description{
+   display: flex;
+   width: 520px;
+   flex-direction: column;
+   padding-left: 250px;
+   padding-bottom: 250px;
+}
+
+.about-us-img{
+   position: relative;
+}
+
+.top{
+   position: absolute;
+   left: 270px;
+   top: 40px;
+}
+
+.bottom{
+   position: absolute;
+   left: 270px;
+   bottom: 100px;
+}
+
+.center{
+   position: absolute;
+   top: 100px;
+}
+
