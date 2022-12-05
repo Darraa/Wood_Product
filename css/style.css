@@ -4,7 +4,7 @@ body{
    background: url('../img/Group.png') no-repeat;
    background-size: cover;
    background-color: rgba(34, 32, 33, 1);
-   
+   overflow-x:hidden;
 }
 
 ul{
@@ -307,6 +307,7 @@ fieldset{
 
 textarea {
    resize: none;
+   color: #F5F5F5;
 }
 
 .question-item-btn {
@@ -331,4 +332,31 @@ footer{
    box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
    width: 100%;
    height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.footer-logo{
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+}
+
+.footer-contact{
+   display: flex;
+   gap: 100px;
+}
+
+footer a{
+   font-family: 'fontForMainText';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 139.4%;
+   color: #F5F5F5;
+}
+
+footer p{
+   font-size: 20px;
 }
